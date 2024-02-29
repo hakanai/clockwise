@@ -1,0 +1,44 @@
+repo_name: hakanai/clockwise
+report_id: 22fd6d3eb907b7ad8b0fcf67b84ac01d
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:59:29+00:00'
+requested_by: TofferJ
+provider: github
+branch: develop
+detected_tools_count: 3
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hakanai/clockwise
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hakanai/clockwise
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/hakanai/clockwise/blob/develop/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mitch Todd
+  last_updated_on: 2016-06-16 15:15:10.000000000 Z
